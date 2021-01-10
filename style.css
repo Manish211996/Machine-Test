@@ -1,0 +1,88 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+    height: 55px
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 40px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #ddd;
+  }
+  
+  li a.active {
+    color: white;
+    background-color: #4CAF50;
+  }
+  /* The popup form - hidden by default */
+  .form-popup {
+    display: Block;
+    /* position: fixed; */
+    /* bottom: 170px; */
+    /* right: 30%; */
+    border: 62px solid #f1f1f1;
+    z-index: 9;
+  }
+  
+  /* Add styles to the form container */
+  .form-container {
+    max-width: 338px;
+    padding: 20px;
+    background-color: white;
+  }
+  
+  /* Full-width input fields */
+  .form-container input[type=text],input[type=email],input[type=number],input[type=date],input[type=checkbox1],input[type=radio1] {
+    width: 93%;
+    padding: 12px;
+    margin: 2px 0px 16px 135px;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  /* When the inputs get focus, do something */
+  .form-container input[type=text]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Set a style for the submit/login button */
+  .form-container .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 18px 29px;
+    border: none;
+    cursor: pointer;
+    width: 48%;
+    margin-bottom: 10px;
+    opacity: 0.8;
+  }
+  
+  /* Add a red background color to the cancel button */
+  .form-container .cancel {
+    background-color: red;
+  }
+  
+  /* Add some hover effects to buttons */
+  .form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+  }
+  a {
+    text-decoration: none;
+    text-underline-offset: unset;
+    color: wheat;
+  }

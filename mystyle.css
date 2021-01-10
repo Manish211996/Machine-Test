@@ -1,0 +1,188 @@
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+li {
+    float: left;
+    background-color: #333;
+    border: 1px solid white;
+    border-radius: 8px;
+}
+li select {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 13px;
+    text-decoration: none;
+    font-size: 15px;
+    float: left;
+    background-color: #008CBA;
+    border: 1px solid white;
+    border-radius: 8px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 17px;
+
+}
+
+li a:hover {
+    box-shadow: 0 2px #fff inset, 0 -1px #fff inset;
+    border-bottom: 2px solid #ddd;
+    /*background-color: #399;*/
+}
+.sec2 {
+    margin-top: 20px;
+  
+}
+
+table {
+    width:100%;
+    text-align: center;
+}
+table, th, td {
+    border: 1px ;
+    border-collapse: collapse;
+    border-radius: 4px;
+}
+
+th, td {
+    text-align: center;
+    padding: 10px 9px;
+}
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+
+}
+table#t01 tr:nth-child(odd) {
+    background-color: #fff;
+}
+table#t01 th {
+    background-color: #146;
+    color: white;
+}
+input[type=text],  input[type=reset] ,input[type=number],input[type=email],input[type=password]{
+    background-color: white;
+    border: round;
+    color: black;
+    padding: 8px 12px;
+    text-decoration: none;
+    /*margin: 4px 2px;*/
+    border-radius: 4px;
+}
+input[type=submit],button[type=submit],button[type=button],input[type=button]{
+    background-color:  #4CAF50;
+    border: round;
+    color: black;
+    padding: 8px 20px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    
+}
+.form_butn{
+    text-align: center;
+    width: 40%;
+    margin: auto; 
+}
+.form_butn a {
+    margin: 0 18px;
+}
+.form_butn button {
+    border: 0px;
+    font-size: 17px;
+    color:white;
+    
+}
+.div button.butn {
+    font-size: 12px;
+    text-align: center;
+    width: fixed;
+    background-color: white;
+    border: round;
+    color: black;
+    padding: 8px 20px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.sharelinks {
+    padding: 10px 20px;
+    background: #f1f1f1;
+    box-shadow: 0 1px #fff inset, 0 -1px #fff inset;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+}
+label.error{
+    color : red;
+}
+/*css new table*/
+form#myform1 th:first-child, form#myform1 td:first-child {
+    width: 30%;
+    text-align: left;
+}
+
+form#myform1 th:last-child, form#myform1 td:last-child {
+    width: 70%;
+}
+
+form#myform1 td label {
+    width: 100%;
+    float: left;
+    text-align: left;
+}
+
+form#myform1 td input {
+    float: left;
+    width: 88%;
+}
+/*css new table end*/
+ .readLink {
+    color : white ;
+  text-decoration: none;
+}
+input:invalid {
+  box-shadow: 0 0 5px 1px red;
+}
+
+input:focus:invalid {
+  box-shadow: none;
+}
+
+
+div.userName {
+    background-color: white;
+    border: round;
+    color: black;
+    padding: 8px 12px;
+    text-decoration: none;
+    text-align: center;
+    margin: 4px 2px;
+    border-radius: 4px;
+}
+    
+img{
+    border: 0;
+}
+
+.hidden{
+    display: none;
+}
+
+label.error {
+    color: red;
+    margin: -36px -334px;
+    float: right;
+}
